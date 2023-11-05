@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/BISHAL%20RAJ%20RAI/Documents/Shiny/Shiny/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.1",
+    "name": "Hypixel SkyBlock",
+    "description": "Hypixel SkyBlock is a game where players start on a Private Island with almost nothing and quickly start collecting resources, expanding their island, fighting monsters, creating farms, and much more.",
+    "icon": "https://raw.githubusercontent.com/birajrai/Shiny/main/icons/hypixel.png",
+    "address": "is.hypixel.net",
+    "discord": {
+      "shortId": "Hypixel SkyBlock",
+      "largeImageText": "Hypixel Network",
+      "largeImageKey": "hypixel"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "forge": {
+    "version": "11.15.1.2318"
+  },
+  "untrackedFiles": []
+}

@@ -1,0 +1,336 @@
+{
+  "version": "1.0.0",
+  "rss": "",
+  "discord": {
+    "clientId": "1170325502448369674",
+    "smallImageText": "Shiny Launcher",
+    "smallImageKey": "logo"
+  },
+  "servers": [
+    {
+      "id": "hypixel-skyblock-1.8.9",
+      "name": "Hypixel SkyBlock",
+      "description": "Hypixel SkyBlock is a game where players start on a Private Island with almost nothing and quickly start collecting resources, expanding their island, fighting monsters, creating farms, and much more.",
+      "icon": "https://raw.githubusercontent.com/birajrai/Shiny/main/icons/hypixel.png",
+      "version": "1.0.1",
+      "address": "is.hypixel.net",
+      "minecraftVersion": "1.8.9",
+      "discord": {
+        "shortId": "Hypixel SkyBlock",
+        "largeImageText": "Hypixel Network",
+        "largeImageKey": "hypixel"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.8.9-11.15.1.2318-1.8.9:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 3805686,
+            "MD5": "b97a4c5bc653c957663e7b0de17a3c09",
+            "url": "https://github.com/birajrai/Shiny/raw/main/repo/lib/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://github.com/birajrai/Shiny/raw/main/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-all:5.0.3@jar",
+              "name": "Minecraft Forge (asm-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 241639,
+                "MD5": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
+                "url": "https://github.com/birajrai/Shiny/raw/main/repo/lib/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar"
+              }
+            },
+            {
+              "id": "jline:jline:2.13@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 248566,
+                "MD5": "f251ba666cccb260ff7215b2cbeee8d4",
+                "url": "https://github.com/birajrai/Shiny/raw/main/repo/lib/jline/jline/2.13/jline-2.13.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://github.com/birajrai/Shiny/raw/main/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://github.com/birajrai/Shiny/raw/main/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://github.com/birajrai/Shiny/raw/main/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://github.com/birajrai/Shiny/raw/main/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://github.com/birajrai/Shiny/raw/main/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://github.com/birajrai/Shiny/raw/main/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://github.com/birajrai/Shiny/raw/main/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://github.com/birajrai/Shiny/raw/main/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://github.com/birajrai/Shiny/raw/main/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://github.com/birajrai/Shiny/raw/main/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://github.com/birajrai/Shiny/raw/main/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://github.com/birajrai/Shiny/raw/main/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:4.6@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 62477,
+                "MD5": "13560a58a79b46b82057686543e8d727",
+                "url": "https://github.com/birajrai/Shiny/raw/main/repo/lib/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://github.com/birajrai/Shiny/raw/main/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://github.com/birajrai/Shiny/raw/main/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "dulkirmod:dulkirmod:1.2.5@jar",
+          "name": "Dulkir Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 192596,
+            "url": "https://github.com/birajrai/Shiny/raw/main/servers/hypixel-skyblock-1.8.9/forgemods/optionaloff/dulkirmod.jar",
+            "MD5": "d41526dc3d45008baf42c9fd61fb3ac2"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "io.github.quantizr:dungeonrooms:3.4.0@jar",
+          "name": "Dungeon Rooms Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7508127,
+            "url": "https://github.com/birajrai/Shiny/raw/main/servers/hypixel-skyblock-1.8.9/forgemods/optionaloff/dungeon-rooms.jar",
+            "MD5": "d6f1705fece6bb95eaa62181d5780522"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "io.github.moulberry:notenoughupdates:2.1+9dff9de@jar",
+          "name": "NotEnoughUpdates",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18395465,
+            "url": "https://github.com/birajrai/Shiny/raw/main/servers/hypixel-skyblock-1.8.9/forgemods/optionaloff/neu.jar",
+            "MD5": "337223d1aa4a36cac5a52de515fbdfa3"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.8.9_HD_U_M5@jar",
+          "name": "OptiFine 1.8.9_HD_U_M5",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2585014,
+            "url": "https://github.com/birajrai/Shiny/raw/main/servers/hypixel-skyblock-1.8.9/forgemods/required/optifine.jar",
+            "MD5": "0765dc1bcbe5baa83f7c261ac2c133ed"
+          }
+        },
+        {
+          "id": "club.sk1er:patcher:1.8.7@jar",
+          "name": "Patcher",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 712241,
+            "url": "https://github.com/birajrai/Shiny/raw/main/servers/hypixel-skyblock-1.8.9/forgemods/required/patcher.jar",
+            "MD5": "cf7c9706c8a7a94dbb2c48f00d883a7a"
+          }
+        },
+        {
+          "id": "codes.biscuit:skyblockaddons:1.7.2@jar",
+          "name": "SkyblockAddons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4065140,
+            "url": "https://github.com/birajrai/Shiny/raw/main/servers/hypixel-skyblock-1.8.9/forgemods/optionalon/sba.jar",
+            "MD5": "324c3aeb8e51de577e4e131fc0d99b9a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "club.sk1er.mods.scrollabletooltips:text_overflow_scroll:LOCAL@jar",
+          "name": "Scrollable Tooltips",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 41132,
+            "url": "https://github.com/birajrai/Shiny/raw/main/servers/hypixel-skyblock-1.8.9/forgemods/optionalon/scrollabletooltips.jar",
+            "MD5": "05cc200b46c6eea4d918300aacd74ea1"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "mynameisjeff.simpletogglesprint:simpletogglesprint:2.2.0@jar",
+          "name": "SimpleToggleSprint",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 97846,
+            "url": "https://github.com/birajrai/Shiny/raw/main/servers/hypixel-skyblock-1.8.9/forgemods/optionaloff/simplesprint.jar",
+            "MD5": "203479f689b9baccb6d77380be22ed86"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "gg.skytils.skytilsmod:skytils:1.7.8@jar",
+          "name": "Skytils",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20610454,
+            "url": "https://github.com/birajrai/Shiny/raw/main/servers/hypixel-skyblock-1.8.9/forgemods/optionalon/skytils.jar",
+            "MD5": "dd893790cdea40634384d7ed64a9674f"
+          },
+          "required": {
+            "value": false
+          }
+        }
+      ]
+    }
+  ]
+}
