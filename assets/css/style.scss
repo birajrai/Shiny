@@ -1,0 +1,99 @@
+$primary-color: white;
+$primary-hover-color: yellow;
+$primary-background: black;
+* {
+  user-select: none;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style: none;
+  color: $primary-color;
+  background: $primary-background;
+  padding: 5px 5px 5px;
+}
+@font-face {
+  font-family: "Avenir BlackOblique";
+  src: url(../fonts/Avenir-BlackOblique.ttf);
+}
+nav {
+  display: flex;
+  justify-content: center;
+  .logo {
+    display: none;
+    img {
+      height: 50px;
+      width: 50px;
+    }
+  }
+  ul {
+    display: flex;
+    gap: 10px;
+    li {
+      a {
+        color: $primary-color;
+        font-family: "Avenir BlackOblique";
+        font-weight: bold;
+        font-size: large;
+        &:hover {
+          color: $primary-hover-color;
+          font-size: larger;
+        }
+      }
+    }
+  }
+}
+content {
+  text-align: center;
+  .home {
+    .background {
+      background: url("");
+      h1 {
+        color: $primary-color;
+      }
+      h2 {
+        color: $primary-color;
+      }
+      h3 {
+        color: $primary-color;
+      }
+      ul {
+        display: flex;
+        justify-content: center;
+        gap: 150px;
+        li {
+          a {
+            font-family: Avenir BlackOblique;
+            font-size: 30px;
+            font-weight: bold;
+            &:hover {
+              color: $primary-hover-color;
+            }
+          }
+        }
+      }
+    }
+  }
+  .downloads {
+    .background {
+      background: url("");
+      ul {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        li {
+          a {
+          }
+        }
+      }
+    }
+  }
+  .about {
+    .background {
+      background: url("");
+    }
+  }
+  .support {
+    .background {
+      background: url("");
+    }
+  }
+}
